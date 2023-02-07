@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0; 
+     background-color: #222831;
+     color: aliceblue;  
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 28px 96px;
+
+}
+
+.header-logo{
+    font-family: 'Oswald';
+
+}
+.header-link {
+    color: orange;
+    display: flex;
+    gap: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+
+
+}
+
+.content {
+    gap: 150px;
+}
+
+.content-text {
+    font-size:xx-large;
+    padding-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.content-img {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.content-text-btn button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 18px;
+    margin-top: 30px;
+}
+
+/* button {
+    background-color:#00ADB5;
+    border: #00ADB5 3px solid;
+    border-radius: 30px;
+    padding: 12px 18px;
+    margin-top: 30px;
+} */
+
+.button-button1 {
+    background-color: #00ADB5;
+    border: #00ADB5 3px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.button-button2 {
+    background-color: #393E46BF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.color{
+    color: #00ADB5;
+}
+
+.about {
+    padding-left: 150px;
+}
+
+.me{
+    color: #00ADB5;
+}
+
+/* .about {
+    padding: 10px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-items: center;
+} */
+
+.about-text {
+    padding-right: 490px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-top: 150px;
+    
+}
+
+.about-color {
+    font-size:smaller;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-img {
+    /* display: flex;
+    justify-content:space-between; */
+    position:unset;
+    left: 900px;
+    top: 100px;
+}
